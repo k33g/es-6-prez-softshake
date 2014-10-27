@@ -4,6 +4,11 @@
   <template>
 
     <template bind="{{human}}">
+      <h3>{{firstName}} {{lastName}}</h3>
+    </template>
+
+    <template bind="{{human}}">
+
       <form onsubmit="return false">
         <input type="text" name="firstName" value="{{firstName}}"/>
         <input type="text" name="lastName"  value="{{lastName}}"/>
